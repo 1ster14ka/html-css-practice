@@ -305,6 +305,7 @@ input {
 .footer-wrapp {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 72px;
 }
 
@@ -349,6 +350,7 @@ input {
   background-color: #31d0aa;
 }
 .footer-social-text {
+  text-align: center;
   font-weight: 500;
   color: #fff;
   margin-bottom: 16px;
@@ -689,6 +691,7 @@ input {
   }
 
   .footer-wrapp {
+    justify-content: flex-start;
     column-gap: 24px;
   }
   .logo-footer {
