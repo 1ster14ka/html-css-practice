@@ -22,6 +22,11 @@
       <div class="container container-header">
         <nav class="navigation">
           <a href="./index.html" class="logo"><span>Web</span>studio</a>
+          <button class="btn-menu">
+            <svg width="17" height="15">
+              <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
           <ul class="navigation-list">
             <li><a href="" class="navigation-item-link">Studio</a></li>
             <li><a href="" class="navigation-item-link">Portfolio</a></li>
@@ -61,7 +66,7 @@
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3>Strategy</h3>
+              <h3 class="subtitle-features">Strategy</h3>
               <p class="features-item-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
@@ -73,7 +78,7 @@
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3>Punctuality</h3>
+              <h3 class="subtitle-features">Punctuality</h3>
               <p class="features-item-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
@@ -85,7 +90,7 @@
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3>Diligence</h3>
+              <h3 class="subtitle-features">Diligence</h3>
               <p class="features-item-text">
                 Research and confirm brands with the strongest digital growth
                 opportunities and minimize risk.
@@ -97,7 +102,7 @@
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3>Technologies</h3>
+              <h3 class="subtitle-features">Technologies</h3>
               <p class="features-item-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -107,11 +112,18 @@
         </div>
       </section>
       <section class="section section-team">
-        <div class="container">
+        <div class="container container-team">
           <h2 class="title">Our Team</h2>
           <ul class="team-list">
             <li class="team-item">
-              <img src="./images/Mark-Guerrero.jpg" alt="Mark Guerrero" />
+              <img
+                srcset="
+                  ./images/Mark-Guerrero.jpg   1x,
+                  ./images/Mark-Guerrero@2.jpg 2x
+                "
+                src="./images/Mark-Guerrero.jpg"
+                alt="Mark Guerrero"
+              />
               <div class="team-item-wrapp">
                 <h3>Mark Guerrero</h3>
                 <p class="team-item-text">Product Designer</p>
@@ -148,7 +160,11 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="./images/Tom-Ford.jpg" alt="Tom Ford" />
+              <img
+                srcset="./images/Tom-Ford.jpg 1x, ./images/Tom-Ford@2.jpg 2x"
+                src="./images/Tom-Ford.jpg"
+                alt="Tom Ford"
+              />
               <div class="team-item-wrapp">
                 <h3>Tom Ford</h3>
                 <p class="team-item-text">Frontend Developer</p>
@@ -185,7 +201,14 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="./images/Camila-Garcia.jpg" alt="Camila Garcia" />
+              <img
+                srcset="
+                  ./images/Camila-Garcia.jpg   1x,
+                  ./images/Camila-Garcia@2.jpg 2x
+                "
+                src="./images/Camila-Garcia.jpg"
+                alt="Camila Garcia"
+              />
               <div class="team-item-wrapp">
                 <h3>Camila Garcia</h3>
                 <p class="team-item-text">Marketing</p>
@@ -222,7 +245,14 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="./images/Daniel-Wilson.jpg" alt="Daniel Wilson" />
+              <img
+                srcset="
+                  ./images/Daniel-Wilson.jpg   1x,
+                  ./images/Daniel-Wilson@2.jpg 2x
+                "
+                src="./images/Daniel-Wilson.jpg"
+                alt="Daniel Wilson"
+              />
               <div class="team-item-wrapp">
                 <h3>Daniel Wilson</h3>
                 <p class="team-item-text">UI Designer</p>
@@ -269,8 +299,12 @@
               <div class="hidden-text-wrapp">
                 <img
                   class="portfolio-img"
+                  srcset="
+                    ./images/Banking-App.jpg   1x,
+                    ./images/Banking-App@2.jpg 2x
+                  "
                   src="./images/Banking-App.jpg"
-                  alt=""
+                  alt="Banking-App"
                 />
                 <p class="wrapp-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -287,8 +321,12 @@
               <div class="hidden-text-wrapp">
                 <img
                   class="portfolio-img"
+                  srcset="
+                    ./images/Cashless-Payment.jpg   1x,
+                    ./images/Cashless-Payment@2.jpg 2x
+                  "
                   src="./images/Cashless-Payment.jpg"
-                  alt=""
+                  alt="Cashless-Payment"
                 />
                 <p class="wrapp-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -305,6 +343,10 @@
               <div class="hidden-text-wrapp">
                 <img
                   class="portfolio-img"
+                  srcset="
+                    ./images/Meditation-App.jpg   1x,
+                    ./images/Meditation-App@2.jpg 2x
+                  "
                   src="./images/Meditation-App.jpg"
                   alt=""
                 />
@@ -323,6 +365,10 @@
               <div class="hidden-text-wrapp">
                 <img
                   class="portfolio-img"
+                  srcset="
+                    ./images/Taxi-Service.jpg   1x,
+                    ./images/Taxi-Service@2.jpg 2x
+                  "
                   src="./images/Taxi-Service.jpg"
                   alt=""
                 />
@@ -341,6 +387,10 @@
               <div class="hidden-text-wrapp">
                 <img
                   class="portfolio-img"
+                  srcset="
+                    ./images/Screen-Illustrations.jpg   1x,
+                    ./images/Screen-Illustrations@2.jpg 2x
+                  "
                   src="./images/Screen-Illustrations.jpg"
                   alt=""
                 />
@@ -359,6 +409,10 @@
               <div class="hidden-text-wrapp">
                 <img
                   class="portfolio-img"
+                  srcset="
+                    ./images/Online-Courses.jpg   1x,
+                    ./images/Online-Courses@2.jpg 2x
+                  "
                   src="./images/Online-Courses.jpg"
                   alt=""
                 />
@@ -379,7 +433,7 @@
     </main>
     <footer class="footer">
       <div class="container footer-wrapp">
-        <div>
+        <div class="footer-wrapp-logo">
           <a href="./index.html" class="logo logo-footer"
             ><span>Web</span>studio</a
           >
@@ -393,28 +447,28 @@
           <ul class="social-icons-list">
             <li class="social-icons-item">
               <a href="" class="social-icons-link">
-                <svg width="16" height="16" class="social-icons">
+                <svg width="24" height="24" class="social-icons">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-icons-item">
               <a href="" class="social-icons-link">
-                <svg width="16" height="16" class="social-icons">
+                <svg width="24" height="24" class="social-icons">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="social-icons-item">
               <a href="" class="social-icons-link">
-                <svg width="16" height="16" class="social-icons">
+                <svg width="24" height="24" class="social-icons">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social-icons-item">
               <a href="" class="social-icons-link">
-                <svg width="16" height="16" class="social-icons">
+                <svg width="24" height="24" class="social-icons">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -495,6 +549,78 @@
           >
           <button type="submit" class="btn-send">Send</button>
         </form>
+      </div>
+    </div>
+    <div class="mobile-modal">
+      <div class="mobile-menu">
+        <button class="icon-close-btn">
+          <svg width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <!-- <button class="icon-close-btn">
+          <svg width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button> -->
+
+        <nav class="navigation-mobile">
+          <ul class="navigation-list-mobile">
+            <li><a href="" class="navigation-item-mobile-link">Studio</a></li>
+            <li>
+              <a href="" class="navigation-item-mobile-link">Portfolio</a>
+            </li>
+            <li>
+              <a href="" class="navigation-item-mobile-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="mobile-address">
+          <ul class="mobile-address-list">
+            <li class="mobile-address-item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="mobile-address-item-link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="mobile-address-item">
+              <a href="tel:+110001111111" class="mobile-address-item-link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="social-icons-list">
+          <li class="social-icons-item">
+            <a href="" class="social-icons-link">
+              <svg width="16" height="16" class="social-icons">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-icons-item">
+            <a href="" class="social-icons-link">
+              <svg width="16" height="16" class="social-icons">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-icons-item">
+            <a href="" class="social-icons-link">
+              <svg width="16" height="16" class="social-icons">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-icons-item">
+            <a href="" class="social-icons-link">
+              <svg width="16" height="16" class="social-icons">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
